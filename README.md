@@ -88,6 +88,18 @@ gemini_api_key = "your-gemini-api-key"
 spreadsheet_url = "your-google-sheet-url"
 ```
 
+Optional Streamlit Config
+
+```yaml
+# .streamlit/config.toml
+[theme]
+primaryColor = "purple"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#ffffff"
+font = "monospace"
+```
+
 ## Usage
 
 1. Run the Streamlit app:
